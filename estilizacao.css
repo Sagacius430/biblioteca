@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet');
+*{box-sizing: border-box; font-family: Trade Winds;}
+
+*{margin:0; padding:0;}
+
+.menu{ float: left; width: 100%; background: #000;}
+    .menu li{float: left; width: 25%; text-align: center; list-style: none;}
+    .menu a{display: block; width: 100%; padding: 10px; color:  #fff; font-weight: bold; text-decoration: none; font-size: 20px;}
+    .menu a:hover{background: #666;}
+    
+.conteudo{float: left; width: 100%; padding: 15px; background: #fff}
+
+/*.formulario{width: 400px; padding: 30px; border:1px solid #ccc;}*/
+.formulario{float: left; width: 70%; height: 300px; margin: 20px 15%; background: #fff;}
+
+p{width: 100%; font-size: 1em;}
+
+h1 {display: block; font-size: 1.5em; font-weight: bold;}
+
+.campo{width: 100%; margin: 15px 0;}
+
+.campo label, .campo span{
+    padding-left: 10px;
+    font-size: 0.8em;
+    display: block;
+    width: 50%;
+}
+input[type=text],
+input[type=email],
+input[type=date],
+
+textarea{
+    width: 250px;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
